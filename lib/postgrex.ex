@@ -27,7 +27,7 @@ defmodule Postgrex do
 
   @typedoc """
   A connection process name, pid or reference.
-
+  let g:eelixir_default_subtype = "html"
   A connection reference is used when making multiple requests to the same
   connection, see `transaction/3`.
   """
